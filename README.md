@@ -47,3 +47,23 @@ event (str) - record description (ie transaction, offer received, offer viewed, 
 person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+## installment
+
+The notebook requires the following python library
+- pandas 
+- numpy 
+- math
+- json
+- pandas.io.json 
+- datetime 
+- tqdm 
+- sklearn
+- matplotlib.pyplot
+- seaborn
+
+python version: 3.7.4
+
+## Acknowledgment
+
+Project context: Udacity Data Science Nanodegree Program
